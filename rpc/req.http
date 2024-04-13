@@ -1,0 +1,10 @@
+POST http://localhost:4000/jsonrpc
+Content-Type: application/json
+
+{"jsonrpc": "2.0", "method": "add", "params": [2, 3], "id": 1}
+
+###
+POST http://localhost:4000/jsonrpc
+Content-Type: application/json
+
+{"jsonrpc": "2.0", "method": "full_name", "params": {"first_name": "Haskell", "last_name": "Curry"}, "id": 2}
